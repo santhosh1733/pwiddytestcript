@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pwiddy.testscript.searchrestaurant">
+      <class name="com.pwiddy.testscript.orderwithoutaddress">
         <methods>
-          <include name="restaurant"/>
+          <include name="withoutaddress"/>
         </methods>
-      </class> <!-- com.pwiddy.testscript.searchrestaurant -->
+      </class> <!-- com.pwiddy.testscript.orderwithoutaddress -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
